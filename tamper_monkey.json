@@ -1,12 +1,12 @@
 {
-  "@name": "mkTieBaContentShield",
-  "alias": "贴吧内容屏蔽器",
+  "@name": "贴吧内容屏蔽器",
+  "alias": "mkTieBaContentShield",
   "@namespace": "http://tampermonkey.net/",
   "@license": "GPL-3.0",
-  "@version": "1.0",
+  "@version": "1.1",
   "@author": "byhgz",
-  "@description": "",
-  "@icon": "https://static.hdslb.com/images/favicon.ico",
+  "@description": "对贴吧(tieba.baidu.com)部分页面内容进行屏蔽处理",
+  "@icon": "https://tb3.bdstatic.com/public/icon/favicon-v2.ico",
   "noFrames": true,
   "@run-at": "document-start",
   "@grant": [

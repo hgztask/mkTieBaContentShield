@@ -53,7 +53,7 @@ export default {
             open: false,
             port: 3000,
             contentBase: 'dist',
-        }) : {}
+        }) : null
     ],
     output: {
         file: 'dist/local_build.js',

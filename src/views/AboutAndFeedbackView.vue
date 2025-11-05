@@ -12,10 +12,8 @@ export default {
       b_url: globalValue.b_url,
       github_url: globalValue.github_url,
       update_urls: [
-        {
-          title: '脚本猫',
-          url: globalValue.scriptCat_js_url
-        }
+        {title: '脚本猫', url: globalValue.scriptCat_js_url},
+        {title: 'Greasyfork', url: globalValue.greasyfork_js_url}
       ],
       update_log_url: globalValue.update_log_url,
       activeName: ['1', '2']

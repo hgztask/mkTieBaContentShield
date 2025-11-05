@@ -61,7 +61,7 @@ github https://github.com/hgztask/mkPixivContentShield
 
 ## 说明
 
-1. 在吧的首页中(非贴吧首页，url大致包含为tieba.baidu.com/f?kw=)，列表中的用户名后面显示省略号的部分获取不到
+1. 在吧的首页中(非贴吧首页，url大致包含为tieba.bai du.com/f?kw=)，列表中的用户名后面显示省略号的部分获取不到
 2. 用户长串id为用户主页中url的id参数值
 3. 用户主页中可通过页面的添加屏蔽按钮快捷添加屏蔽
 4. 帖子页中可通过标题右侧的屏蔽按钮快捷添加帖子id屏蔽
