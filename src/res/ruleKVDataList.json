@@ -1,0 +1,98 @@
+[
+  {
+    "name": "用户名",
+    "key": "username",
+    "pattern": "模糊",
+    "fullName": "模糊用户名"
+  },
+  {
+    "name": "用户名",
+    "key": "username_precise",
+    "pattern": "精确",
+    "fullName": "精确用户名"
+  },
+  {
+    "name": "用户名",
+    "key": "username_regex",
+    "pattern": "正则",
+    "fullName": "正则用户名"
+  },
+  {
+    "name": "用户长串id",
+    "key": "userLongId_precise",
+    "pattern": "精确",
+    "fullName": "精确用户长串id"
+  },
+  {
+    "name": "帖子标题",
+    "key": "postTitle",
+    "pattern": "模糊",
+    "fullName": "模糊帖子标题"
+  },
+  {
+    "name": "帖子标题",
+    "key": "postTitle_regex",
+    "pattern": "正则",
+    "fullName": "正则帖子标题"
+  },
+  {
+    "name": "吧名",
+    "key": "barName_precise",
+    "pattern": "精确",
+    "fullName": "精确吧名"
+  },
+  {
+    "name": "吧名",
+    "key": "barName",
+    "pattern": "模糊",
+    "fullName": "模糊吧名"
+  },
+  {
+    "name": "吧名",
+    "key": "barName_regex",
+    "pattern": "正则",
+    "fullName": "正则吧名"
+  },
+  {
+    "name": "评论",
+    "key": "comment",
+    "pattern": "模糊",
+    "fullName": "模糊评论"
+  },
+  {
+    "name": "评论",
+    "key": "comment_regex",
+    "pattern": "正则",
+    "fullName": "正则评论"
+  },
+  {
+    "name": "帖子预览内容",
+    "key": "postPreviewContent",
+    "pattern": "模糊",
+    "fullName": "模糊帖子预览内容"
+  },
+  {
+    "name": "帖子预览内容",
+    "key": "postPreviewContent_regex",
+    "pattern": "正则",
+    "fullName": "正则帖子预览内容"
+  },
+  {
+    "name": "帖子id",
+    "key": "postId_precise",
+    "pattern": "精确",
+    "fullName": "精确帖子id"
+  },
+  {
+    "name": "热议榜词",
+    "key": "hotWord",
+    "pattern": "模糊",
+    "fullName": "模糊热议榜词"
+  },
+  {
+    "name": "热议榜词",
+    "key": "hotWord_regex",
+    "pattern": "正则",
+    "fullName": "正则热议榜词"
+  }
+]
