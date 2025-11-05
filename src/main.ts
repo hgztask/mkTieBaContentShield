@@ -7,6 +7,7 @@ import watch from './watch/watch'
 import urlUtil from "./utils/urlUtil";
 import homePage from "./pageModel/homePage";
 import hotDiscussionPage from "./pageModel/hotDiscussionPage";
+import postPage from "./pageModel/postPage";
 
 window.parseUrl = urlUtil.parseUrl;
 window.addEventListener('load', () => {
@@ -20,5 +21,9 @@ watch.addEventListenerNetwork((url) => {
     }
     if (url.includes('//tieba.baidu.com/hottopic/browse/getTopicRelateThread?topic_name=')) {
         hotDiscussionPage.checkPostList();
+    }
+    if (url.includes('//tieba.baidu.com/p/comment?tid=')) {
+        console.log('评论数据加载了');
+        postPage.checkPostCommentList();
     }
 })

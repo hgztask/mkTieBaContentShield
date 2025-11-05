@@ -16,7 +16,7 @@ const getMidFloorList = async (el: Element) => {
         const contentEl = replyEl.querySelector('.lzl_content_main')!;
         const replyDataFieldStr = replyEl.getAttribute('data-field');
         const insertionPositionEl = replyEl.querySelector('.lzl_content_reply')!;
-        const userAEl = replyEl.querySelector('a[alog-group="p_author"]')!;
+        const userAEl = replyEl.querySelector('a[href^="/home/main?id"]')!;
         if (replyDataFieldStr === null) {
             console.error(el, replyEl);
             throw new Error('楼层中的data-field属性为空');
