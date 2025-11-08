@@ -57,7 +57,7 @@
 
 ## 开源地址
 
-github https://github.com/hgztask/mkPixivContentShield
+github https://github.com/hgztask/mkTieBaContentShield
 
 ## 说明
 
